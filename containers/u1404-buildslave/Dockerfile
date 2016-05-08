@@ -3,7 +3,7 @@
 # basic metadata
 MAINTAINER Bruce Becker <bbecker@Csir.co.za>
 FROM ansible/ubuntu14.04-ansible
-
+CMD apt-get  install -y libffi-dev
 # get AAROC DevOps code
 
 CMD git clone https://github.com/AAROC/DevOps
